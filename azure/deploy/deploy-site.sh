@@ -1,0 +1,1 @@
+az storage blob upload-batch -s assets -d \$web --account-name $1 --account-key $2

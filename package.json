@@ -1,0 +1,36 @@
+{
+  "name": "nest-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precompile": "rimraf lib",
+    "compile": "tsc",
+    "start": "node lib/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaux/nest-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaux/nest-socket/issues"
+  },
+  "homepage": "https://github.com/thomaux/nest-socket#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.0.9",
+    "@nestjs/core": "^7.0.9",
+    "@nestjs/platform-express": "^7.0.9",
+    "@nestjs/platform-socket.io": "^7.0.9",
+    "@nestjs/websockets": "^7.0.9",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/socket.io": "^2.1.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
